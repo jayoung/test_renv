@@ -30,6 +30,18 @@ Running the whole script with the 'knit' button:
     `## [3] "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library"`
 
 
+## script 3 - my_subdir/test_renv_subdir.withLibraryCall.Rmd
+
+Same as my_subdir/test_renv.Rmd but with `library(renv)` added
+
+Running chunks with the 'run' button:
+- the working dir is my_subdir
+- libPaths has only the two appropriate renv dirs
+
+Running the whole script with the 'knit' button:
+- the working dir is my_subdir
+- libPaths has only the two appropriate renv dirs
+
 
 ## original setup
 
