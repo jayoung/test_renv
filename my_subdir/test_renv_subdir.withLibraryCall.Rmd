@@ -1,0 +1,36 @@
+---
+title: "my_subdir/test_renv_subdir.withLibraryCall.Rmd script"
+author: "Janet Young\n"
+date: "`r Sys.Date()`\n"
+output: github_document
+always_allow_html: true
+---
+
+```{r}
+library(renv)
+```
+
+
+Show .libPaths()
+
+```{r}
+.libPaths()
+```
+
+
+Show working dir
+
+```{r}
+getwd()
+```
+
+
+
+
+
+sessionInfo
+
+```{r}
+sessionInfo()
+```
+
