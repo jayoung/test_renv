@@ -1,0 +1,37 @@
+---
+title: "my_subdir/test_renv.Rmd script"
+author: "Janet Young\n"
+date: "`r Sys.Date()`\n"
+output: github_document
+always_allow_html: true
+---
+
+
+Show .libPaths()
+
+```{r}
+.libPaths()
+```
+
+
+Show working dir
+
+```{r}
+getwd()
+```
+
+
+Show environmental variables
+
+```{r}
+Sys.getenv()
+```
+
+
+
+sessionInfo
+
+```{r}
+sessionInfo()
+```
+
