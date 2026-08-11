@@ -21,11 +21,6 @@ getwd()
 ```
 
 
-Show environmental variables
-
-```{r}
-Sys.getenv()
-```
 
 
 
