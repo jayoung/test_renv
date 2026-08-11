@@ -1,4 +1,4 @@
-test_renv_topdir.Rmd script
+my_subdir/test_renv_subdir.Rmd script
 ================
 Janet Young
 
@@ -12,6 +12,7 @@ Show .libPaths()
 
     ## [1] "/Users/jayoung/gitProjects/test_renv/renv/library/macos/R-4.6/aarch64-apple-darwin23"                    
     ## [2] "/Users/jayoung/Library/Caches/org.R-project.R/R/renv/sandbox/macos/R-4.6/aarch64-apple-darwin23/46003b10"
+    ## [3] "/Library/Frameworks/R.framework/Versions/4.6/Resources/library"
 
 Show working dir
 
@@ -19,7 +20,7 @@ Show working dir
 getwd()
 ```
 
-    ## [1] "/Users/jayoung/gitProjects/test_renv"
+    ## [1] "/Users/jayoung/gitProjects/test_renv/my_subdir"
 
 sessionInfo
 
@@ -42,10 +43,9 @@ sessionInfo()
     ## tzcode source: internal
     ## 
     ## attached base packages:
-    ## [1] stats     graphics  grDevices datasets  utils     methods   base     
+    ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] compiler_4.6.1  fastmap_1.2.0   cli_3.6.6       htmltools_0.5.9
-    ##  [5] tools_4.6.1     yaml_2.3.12     rmarkdown_2.31  knitr_1.51     
-    ##  [9] xfun_0.60       digest_0.6.39   rlang_1.3.0     renv_1.2.4     
-    ## [13] evaluate_1.0.5
+    ##  [1] compiler_4.6.1  fastmap_1.2.0   cli_3.6.6       tools_4.6.1    
+    ##  [5] htmltools_0.5.9 yaml_2.3.12     rmarkdown_2.31  knitr_1.51     
+    ##  [9] xfun_0.60       digest_0.6.39   rlang_1.3.0     evaluate_1.0.5
