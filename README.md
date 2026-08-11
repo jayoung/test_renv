@@ -42,6 +42,15 @@ Running the whole script with the 'knit' button:
 - the working dir is my_subdir
 - libPaths has only the two appropriate renv dirs
 
+# Rprofile files
+
+This is true on mac and server.
+- when I knit a script in the subdir, it reads ~/.Rprofile and NOT the project/.Rprofile
+- when I knit a script in the topdir, it reads project/.Rprofile
+
+The renv/activate.R script is sourced via project/.Rprofile so it doesn't get read for scripts that are knit from within subdirs
+
+knit pulldown - set to 'knit directory = project directory'
 
 ## original setup
 
