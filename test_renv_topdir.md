@@ -75,7 +75,7 @@ Sys.getenv()
     ## R_QPDF                  /Library/Frameworks/R.framework/Resources/bin/qpdf
     ## R_RD4PDF                times,inconsolata,hyper
     ## R_RUNTIME               
-    ## R_SESSION_TMPDIR        /var/folders/2y/wndvmd3j0xz24lrl2fjq2j980000gp/T//Rtmp9F3Lv3
+    ## R_SESSION_TMPDIR        /var/folders/2y/wndvmd3j0xz24lrl2fjq2j980000gp/T//Rtmpidhi37
     ## R_SHARE_DIR             /Library/Frameworks/R.framework/Resources/share
     ## R_STRIP_SHARED_LIB      strip -x
     ## R_STRIP_STATIC_LIB      strip -S
@@ -100,7 +100,7 @@ Sys.getenv()
     ##                         /Users/jayoung/gitProjects/test_renv/renv/python/r-reticulate
     ## RMARKDOWN_MATHJAX_PATH
     ##                         /Applications/RStudio.app/Contents/Resources/app/resources/mathjax-27
-    ## RMARKDOWN_PREVIEW_DIR   /var/folders/2y/wndvmd3j0xz24lrl2fjq2j980000gp/T//Rtmp5doWxW
+    ## RMARKDOWN_PREVIEW_DIR   /var/folders/2y/wndvmd3j0xz24lrl2fjq2j980000gp/T//RtmpwRJwtA
     ## RS_LOG_LEVEL            WARNING
     ## RS_RPOSTBACK_PATH       /Applications/RStudio.app/Contents/Resources/app/bin/rpostback
     ## RS_SHARED_SECRET        fa087c41-04cc-42ea-812d-2aac82acc097
@@ -117,16 +117,16 @@ Sys.getenv()
     ## RSTUDIO_LONG_VERSION    2026.07.1+147
     ## RSTUDIO_PANDOC          /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/aarch64
     ## RSTUDIO_PROGRAM_MODE    desktop
-    ## RSTUDIO_SESSION_PID     62148
+    ## RSTUDIO_SESSION_PID     18913
     ## RSTUDIO_SESSION_PORT    47139
     ## RSTUDIO_USER_IDENTITY   jayoung
     ## RSTUDIO_VERSION         2026.07.1.147
     ## RSTUDIOAPI_IPC_REQUESTS_FILE
-    ##                         /var/folders/2y/wndvmd3j0xz24lrl2fjq2j980000gp/T/Rtmp5doWxW/rstudio-ipc-requests-f2c450d42209.rds
+    ##                         /var/folders/2y/wndvmd3j0xz24lrl2fjq2j980000gp/T/RtmpwRJwtA/rstudio-ipc-requests-49e15eb9118d.rds
     ## RSTUDIOAPI_IPC_RESPONSE_FILE
-    ##                         /var/folders/2y/wndvmd3j0xz24lrl2fjq2j980000gp/T/Rtmp5doWxW/rstudio-ipc-response-f2c41706a654.rds
+    ##                         /var/folders/2y/wndvmd3j0xz24lrl2fjq2j980000gp/T/RtmpwRJwtA/rstudio-ipc-response-49e1482f7090.rds
     ## RSTUDIOAPI_IPC_SHARED_SECRET
-    ##                         a1bb3783-6a6e-4913-b224-7fbe116da34d
+    ##                         e9d24fd5-312e-48d0-971d-f5b0cd55cc53
     ## SED                     /usr/bin/sed
     ## SF_PARTNER              posit_rstudio
     ## SHELL                   /bin/bash
@@ -169,5 +169,5 @@ sessionInfo()
     ## loaded via a namespace (and not attached):
     ##  [1] compiler_4.5.3  fastmap_1.2.0   cli_3.6.6       htmltools_0.5.9
     ##  [5] tools_4.5.3     yaml_2.3.12     rmarkdown_2.31  knitr_1.51     
-    ##  [9] xfun_0.60       digest_0.6.39   rlang_1.3.0     renv_1.2.0     
+    ##  [9] xfun_0.60       digest_0.6.39   rlang_1.3.0     renv_1.2.4     
     ## [13] evaluate_1.0.5
